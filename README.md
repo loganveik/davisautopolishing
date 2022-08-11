@@ -34,3 +34,5 @@ carbon fiber color theme. grays blacks
 (<CONTAINER>hero -> 
 (<MAIN>about -> packages -> gallery -> faq</MAIN>)
 -> footer</CONTAINER>)
+
+**REPLACE FONTSIZE/MARGIN/PADDING(px) WITH EM/REM
