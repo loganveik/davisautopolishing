@@ -36,3 +36,17 @@ carbon fiber color theme. grays blacks
 -> footer</CONTAINER>)
 
 **REPLACE FONTSIZE/MARGIN/PADDING(px) WITH EM/REM
+ALSO GOOGLE CSS RESET
+(utility classes) - for sass listed below
+
+//
+
+sass - color themes? (fontsize, fontfamily, fontweight, color, backgroundcolor)
+
+TEXT:
+main-light (HEX #8d99ae)
+secondary-light (HEX #edf2f4)
+main-dark (HEX #)
+secondary-dark (HEX #)
+main-red (HEX #ba181b)
+secondary-red (HEX #e5383b)

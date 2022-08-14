@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    background-color: #fafafa;
+}
+
+.packages {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.packages-header {
+    text-align: center;
+}
+
+#packages-title {
+    color: #ba181b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#packages-sub {
+    color: #e5383b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.packages-plans {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.plans-card {
+    background-color: #ffffff;
+    width: 25%;
+    padding: 2.5rem 2rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 0.2);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 1rem;
+}
+
+#heading-title {
+    color: #ba181b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+#heading-price {
+    color: #e5383b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.card-features {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.feature {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#feature-icon {
+    color: #aaf683;
+    margin-right: 0.5rem;
+    font-size: 1.25rem;
+}
+
+#feature-title {
+    color: #6c757d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.btn-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+#card-btn {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #e5383b;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+#card-btn:hover {
+    background-color: #ba181b;
+}
+
+/* still using some px in above code, try and use rem instead */
