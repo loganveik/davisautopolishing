@@ -67,6 +67,7 @@ html {
     justify-content: space-between;
     align-items: center;
 }
+
 .nav-content img {
     width: 5rem;
 }
@@ -156,7 +157,7 @@ html {
 /* MAIN */
 .main {
     width: 100%;
-    padding: 6rem 6rem;
+    padding: 3rem 6rem;
 }
 
 /* ABOUT */
@@ -167,7 +168,7 @@ html {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    /* margin-bottom: 6rem; */
+    padding: 3rem 0;
 }
 
 .about-content {
@@ -201,7 +202,6 @@ html {
 
 .about-list-item i {
     color: var(--clr-light-theme);
-    /* font-size: 1.25rem; */
     font-size: 1.5rem;
 }
 
@@ -233,6 +233,106 @@ html {
 /* GALLERY */
 
 /* FAQ */
+#faq {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.faq-header {
+    text-align: center;
+}
+
+#faq-title {
+    color: #ba181b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#faq-sub {
+    color: #e5383b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.faq-list {
+    margin-top: 3rem;
+    width: 60%;
+}
+
+.faq-list-item1,
+.faq-list-item2,
+.faq-list-item3,
+.faq-list-item4,
+.faq-list-item5 {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 1.25rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-list-item-question {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+#faq-question {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--clr-dark-black);
+}
+
+#faq-icon1,
+#faq-icon2,
+#faq-icon3,
+#faq-icon4,
+#faq-icon5 {
+    font-size: 1.25rem;
+    color: #6c757d;
+    transition: 0.5s ease-in-out;
+}
+
+#faq-icon1.active,
+#faq-icon2.active,
+#faq-icon3.active,
+#faq-icon4.active,
+#faq-icon5.active {
+    transform: rotate(-180deg);
+}
+
+#faq-answer1,
+#faq-answer2,
+#faq-answer3,
+#faq-answer4,
+#faq-answer5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #6c757d;
+    line-height: 1.3rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.8s ease-in-out;
+}
+
+#faq-answer1.active,
+#faq-answer2.active,
+#faq-answer3.active,
+#faq-answer4.active,
+#faq-answer5.active {
+    max-height: 20rem;
+}
 
 /* FOOTER */
 footer {
