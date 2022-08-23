@@ -39,6 +39,8 @@ carbon fiber color theme. grays blacks
 ALSO GOOGLE CSS RESET
 (utility classes) - for sass listed below
 
+About section 2 sides. pic on left and about part on the right
+
 //
 
 sass - color themes? (fontsize, fontfamily, fontweight, color, backgroundcolor)
@@ -50,3 +52,22 @@ main-dark (HEX #)
 secondary-dark (HEX #)
 main-red (HEX #ba181b)
 secondary-red (HEX #e5383b)
+
+FAQ:
+What days are you open?
+We are open Monday - Saturday, 7AM - 7PM.
+
+Where do you serve?
+We serve Chandler, Phoenix, Mesa, Gilbert, Queen Creek.
+
+What is ceramic coating?
+Ceramic coating is a chemical polymer solution that is applied to the exterior of a vehicle to protect it from external paint damage. Typically applied by hand. it blends with the paint of your car and creates an additional hydrophobic layer of protection.
+
+What is a clay bar?
+A clay barring is a process that pulls contaminants like water spots, brake dust, metal dust, industrial pollution and road grit from your clear coat.
+
+What is a paint correction?
+Paint correction is the mechanical leveling of clear coat or paint to a point where all the paint is free of swirl marks and light scratches.
+
+<!-- themeforrest live theme link (lotta dif designs) -->
+https://preview.themeforest.net/item/the7-responsive-multipurpose-wordpress-theme/full_screen_preview/5556590?_ga=2.143513141.1656506873.1660371873-1149730923.1660189160&_gac=1.52941914.1660475960.Cj0KCQjwuuKXBhCRARIsAC-gM0h1gM8B94FLvhCJdB1AFbr8gpgx35LMZHyXLxKmadJRshSIXgKRdpEaAuQjEALw_wcB
