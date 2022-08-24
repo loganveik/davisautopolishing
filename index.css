@@ -350,17 +350,17 @@ html {
 }
 
 #faq-title {
-    color: #ba181b;
-    font-family: 'Poppins', sans-serif;
+    color: var(--clr-dark-theme);
+    font-family: var(--ff-poppins);
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: var(--fw-700);
 }
 
 #faq-sub {
-    color: #e5383b;
-    font-family: 'Poppins', sans-serif;
+    color: var(--clr-light-theme);
+    font-family: var(--ff-poppins);
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: var(--fw-500);
 }
 
 .faq-list {
@@ -374,10 +374,10 @@ html {
 .faq-list-item4,
 .faq-list-item5 {
     width: 100%;
-    background-color: #ffffff;
+    background-color: var(--clr-light-white);
     box-shadow: 0px 0px 20px rgb(0 0 0 / 0.2);
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 0.7rem;
     margin-bottom: 1.25rem;
     padding: 1rem;
     display: flex;
@@ -391,9 +391,9 @@ html {
 }
 
 #faq-question {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--ff-roboto);
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: var(--fw-500);
     color: var(--clr-dark-black);
 }
 
@@ -420,9 +420,9 @@ html {
 #faq-answer3,
 #faq-answer4,
 #faq-answer5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--ff-roboto);
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: var(--fw-300);
     color: #6c757d;
     line-height: 1.3rem;
     max-height: 0;
@@ -441,12 +441,12 @@ html {
 /* FOOTER */
 footer {
     background-color: #dcdfe5;
-    padding: 3rem 4rem;
+    padding: 3rem 6rem;
 }
 
 .footer-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #content-heading {
@@ -549,4 +549,35 @@ footer {
 }
 
 /* FOOTER media queries */
-@media (max-width: 500px) {}
+@media (max-width: 1000px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-contact, .footer-links, .footer-service {
+        margin-bottom: 1.4rem;
+        width: fit-content;
+    }
+
+    #content-heading {
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-contact a,
+    .footer-contact p:not(#content-heading) {
+        margin: 0;
+    }
+
+    .footer-link a {
+        margin: 0;
+    }
+
+    .footer-service p:not(#content-heading) {
+        margin: 0;
+    }
+
+    .footer-form {
+        width: 15rem;
+    }
+}
