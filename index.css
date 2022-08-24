@@ -526,6 +526,7 @@ footer {
     color: var(--clr-dark-black);
     padding: 0.5rem 0;
     resize: none;
+    font-size: 1rem;
 }
 
 .footer-form button {
