@@ -44,7 +44,7 @@ html {
 
 .plans-card {
     background-color: #ffffff;
-    width: 27%;
+    width: 23rem;
     padding: 2.5rem 2rem;
     border-radius: 5px;
     box-shadow: 0px 0px 20px rgb(0 0 0 / 0.2);
@@ -67,17 +67,57 @@ html {
 #heading-title {
     color: #ba181b;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
-#heading-price {
+.sizes {
+    /* background-color: aquamarine; */
+    width: 100%;
+    display: flex;
+    /* padding: 1rem 0; */
+}
+
+.row1, .row2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem 0;
+    /* background-color: cadetblue; */
+    width: 50%;
+}
+
+/* .row2 {
+    display: flex;
+} */
+
+.sizes-heading {
+    /* background-color: brown; */
+    margin-top: 1.25rem;
+    text-align: center;
+}
+
+#sizes-title {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+#sizes-price {
+    color: #e5383b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* #heading-price {
     color: #e5383b;
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
     font-weight: 700;
     margin-top: 0.5rem;
-}
+} */
 
 .card-features {
     width: 100%;
@@ -104,6 +144,7 @@ html {
     margin-right: 0.5rem;
     font-size: 1.25rem;
 }
+
 /* do feature-icon for check and plus */
 
 #feature-title {
