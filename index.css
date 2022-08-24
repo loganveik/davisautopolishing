@@ -112,6 +112,7 @@ html {
     .nav {
         padding: 1rem 2rem;
     }
+
     .nav-content img {
         width: 3.5rem;
     }
@@ -137,6 +138,7 @@ html {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/car-hero.png);
     background-position: center;
     background-size: cover;
+    padding: 0 3rem;
 }
 
 .hero-content {
@@ -144,7 +146,7 @@ html {
 }
 
 #hero-content-title {
-    font-family: var(--ff-roboto);
+    font-family: var(--ff-poppins);
     font-weight: var(--fw-700);
     color: var(--clr-light-white);
     font-size: 4rem;
@@ -175,6 +177,17 @@ html {
 
 #hero-content-button:hover {
     background-color: var(--clr-dark-theme);
+}
+
+/* HERO media queries */
+@media (max-width: 650px) {
+    #hero-content-title {
+        font-size: 2.5rem;
+    }
+
+    #hero-content-slogan {
+        font-size: 1.5rem;
+    }
 }
 
 /* MAIN */
