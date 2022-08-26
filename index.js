@@ -1,3 +1,4 @@
+// When page is scrolled at all, change nav background color to gray, and links to black
 const navbar = document.querySelector(".nav");
 window.onscroll = () => {
     if (window.scrollY > 0) {
@@ -7,40 +8,29 @@ window.onscroll = () => {
     }
 };
 
+const navMobile = document.querySelector(".mobile-nav");
+const openBtn = document.querySelector("#bars-icon");
+const closeBtn = document.querySelector("#close-icon");
+// When bars icon is clicked on mobile, nav drops down. When X icon is clicked, dropdown nav hides
+openBtn.addEventListener("click", () => {
+    navMobile.classList.add("active");
+});
+closeBtn.addEventListener("click", () => {
+    navMobile.classList.remove("active");
+});
 
-const faqListItem1 = document.querySelector(".faq-list-item1");
-const faqListItem2 = document.querySelector(".faq-list-item2");
-const faqListItem3 = document.querySelector(".faq-list-item3");
-const faqListItem4 = document.querySelector(".faq-list-item4");
-const faqListItem5 = document.querySelector(".faq-list-item5");
-const faqIcon1 = document.getElementById("faq-icon1");
-const faqIcon2 = document.getElementById("faq-icon2");
-const faqIcon3 = document.getElementById("faq-icon3");
-const faqIcon4 = document.getElementById("faq-icon4");
-const faqIcon5 = document.getElementById("faq-icon5");
-const faqAns1 = document.getElementById("faq-answer1");
-const faqAns2 = document.getElementById("faq-answer2");
-const faqAns3 = document.getElementById("faq-answer3");
-const faqAns4 = document.getElementById("faq-answer4");
-const faqAns5 = document.getElementById("faq-answer5");
+// When individual link in dropdown nav is clicked, close dropdown nav
+const navMobileLinks = document.querySelectorAll(".mobile-nav-link");
+navMobileLinks.forEach(navMobileLink => {
+    navMobileLink.addEventListener("click", () => {
+        navMobile.classList.toggle("active");
+    });
+});
 
-faqListItem1.addEventListener("click", () => {
-    faqAns1.classList.toggle("active");
-    faqIcon1.classList.toggle("active");
-})
-faqListItem2.addEventListener("click", () => {
-    faqAns2.classList.toggle("active");
-    faqIcon2.classList.toggle("active");
-})
-faqListItem3.addEventListener("click", () => {
-    faqAns3.classList.toggle("active");
-    faqIcon3.classList.toggle("active");
-})
-faqListItem4.addEventListener("click", () => {
-    faqAns4.classList.toggle("active");
-    faqIcon4.classList.toggle("active");
-})
-faqListItem5.addEventListener("click", () => {
-    faqAns5.classList.toggle("active");
-    faqIcon5.classList.toggle("active");
-})
+// When individual faq card is clicked, open/close dropdown answer as well as flip arrow icon
+const faqListItems = document.querySelectorAll(".faq-list-item");
+faqListItems.forEach(faqListItem => {
+    faqListItem.addEventListener("click", () => {
+        faqListItem.classList.toggle("active");
+    });
+});
