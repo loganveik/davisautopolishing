@@ -1,0 +1,310 @@
+<!-- <div class="plans-card">
+                <div class="card-content">
+                    <div class="card-heading">
+                        <p id="heading-title">Basic Exterior</p>
+                        <p id="heading-price">$90</p>
+                    </div>
+                    <div class="card-features">
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">2 bucket method exterior wash</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Clean rims and tires</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Tire shine</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Spray wax</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Streak free window cleaning</p>
+                        </div>
+                    </div>
+                    <div class="btn-wrap">
+                        <a id="card-btn">Choose Plan</a>
+                    </div>
+                </div>
+            </div> -->
+<!-- <div class="plans-card swiper-slide">
+                <div class="card-content">
+                    <div class="card-heading">
+                        <p id="heading-title">Boss Special</p>
+                        <div class="sizes">
+                            <div class="row1">
+                                <div class="sizes-heading">
+                                    <p id="sizes-title">Sedans</p>
+                                    <p id="sizes-price">$240</p>
+                                </div>
+                                <div class="sizes-heading">
+                                    <p id="sizes-title">Midsize</p>
+                                    <p id="sizes-price">$270</p>
+                                </div>
+                            </div>
+                            <div class="row2">
+                                <div class="sizes-heading">
+                                    <p id="sizes-title">Truck</p>
+                                    <p id="sizes-price">$285</p>
+                                </div>
+                                <div class="sizes-heading">
+                                    <p id="sizes-title">Van/3row</p>
+                                    <p id="sizes-price">$290</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card-features">
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">2 bucket method exterior wash</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Clean rims and tires</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Tire shine</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Spray wax</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Streak free window cleaning</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon-protect" class="fa-solid fa-shield"></i>
+                            <p id="feature-title">Paint decontamination</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon-protect" class="fa-solid fa-shield"></i>
+                            <p id="feature-title">Clay Bar</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon-protect" class="fa-solid fa-shield"></i>
+                            <p id="feature-title">6 month wax/sealant</p>
+                        </div>
+                    </div>
+                    <div class="btn-wrap">
+                        <a id="card-btn">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plans-card swiper-slide">
+                <div class="card-content">
+                    <div class="card-heading">
+                        <p id="heading-title">Boss Special + Interior</p>
+                        <div class="sizes">
+                            <div class="row1">
+                                <div class="sizes-heading">
+                                    <p id="sizes-title">Sedans</p>
+                                    <p id="sizes-price">$300</p>
+                                </div>
+                                <div class="sizes-heading">
+                                    <p id="sizes-title">Midsize</p>
+                                    <p id="sizes-price">$340</p>
+                                </div>
+                            </div>
+                            <div class="row2">
+                                <div class="sizes-heading">
+                                    <p id="sizes-title">Truck</p>
+                                    <p id="sizes-price">$360</p>
+                                </div>
+                                <div class="sizes-heading">
+                                    <p id="sizes-title">Van/3row</p>
+                                    <p id="sizes-price">$390</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card-features">
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">2 bucket method exterior wash</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Clean rims and tires</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Tire shine</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Spray wax</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Streak free window cleaning</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Interior vacuum</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Floor mat cleaning</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Full wipe down</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Electronic display cleaning</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon-protect" class="fa-solid fa-shield"></i>
+                            <p id="feature-title">Paint decontamination</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon-protect" class="fa-solid fa-shield"></i>
+                            <p id="feature-title">Clay Bar</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon-protect" class="fa-solid fa-shield"></i>
+                            <p id="feature-title">6 month wax/sealant</p>
+                        </div>
+                    </div>
+                    <div class="btn-wrap">
+                        <a id="card-btn">Choose Plan</a>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="plans-card">
+                <div class="card-content">
+                    <div class="card-heading">
+                        <p id="heading-title">Paint Correction</p>
+                        <div class="sizes">
+                            <div class="sizes-heading">
+                                <p id="sizes-title">Sedans</p>
+                                <p id="sizes-price">$450</p>
+                            </div>
+                            <div class="sizes-heading">
+                                <p id="sizes-title">Midsize</p>
+                                <p id="sizes-price">$550</p>
+                            </div>
+                            <div class="sizes-heading">
+                                <p id="sizes-title">Truck/Van/3 row</p>
+                                <p id="sizes-price">$650</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-features">
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">2 bucket method exterior wash</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Clean rims and tires</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Tire shine</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Streak free window cleaning</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon-protect" class="fa-solid fa-shield"></i>
+                            <p id="feature-title">Paint decontamination</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon-protect" class="fa-solid fa-shield"></i>
+                            <p id="feature-title">Clay Bar</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon-protect" class="fa-solid fa-shield"></i>
+                            <p id="feature-title">1 step paint correction</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon-protect" class="fa-solid fa-shield"></i>
+                            <p id="feature-title">Exterior trim restoration</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon-protect" class="fa-solid fa-shield"></i>
+                            <p id="feature-title">6 month wax/sealant</p>
+                        </div>
+                    </div>
+                    <div class="btn-wrap">
+                        <a id="card-btn">Choose Plan</a>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="plans-card">
+                <div class="card-content">
+                    <div class="card-heading">
+                        <p id="heading-title">Ceramic Coating</p>
+                        <div class="sizes">
+                            <div class="sizes-heading">
+                                <p id="sizes-title">Sedans</p>
+                                <p id="sizes-price">$650</p>
+                            </div>
+                            <div class="sizes-heading">
+                                <p id="sizes-title">Midsize</p>
+                                <p id="sizes-price">$800</p>
+                            </div>
+                            <div class="sizes-heading">
+                                <p id="sizes-title">Truck/Van/3 row</p>
+                                <p id="sizes-price">$950</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-features">
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">2 bucket method exterior wash</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Clean rims and tires</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Tire shine</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon" class="fa-solid fa-circle-check"></i>
+                            <p id="feature-title">Streak free window cleaning</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon-protect" class="fa-solid fa-shield"></i>
+                            <p id="feature-title">Paint decontamination</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon-protect" class="fa-solid fa-shield"></i>
+                            <p id="feature-title">Clay Bar</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon-protect" class="fa-solid fa-shield"></i>
+                            <p id="feature-title">1 step paint correction</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon-protect" class="fa-solid fa-shield"></i>
+                            <p id="feature-title">Exterior trim restoration</p>
+                        </div>
+                        <div class="feature">
+                            <i id="feature-icon-protect" class="fa-solid fa-shield"></i>
+                            <p id="feature-title">2 year ceramic coat</p>
+                        </div>
+                    </div>
+                    <div class="btn-wrap">
+                        <a id="card-btn">Choose Plan</a>
+                    </div>
+                </div>
+            </div> -->

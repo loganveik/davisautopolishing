@@ -26,3 +26,11 @@ navMobileLinks.forEach(navMobileLink => {
         navMobile.classList.toggle("active");
     });
 });
+
+// When individual faq card is clicked, open/close dropdown answer as well as flip arrow icon
+const faqListItems = document.querySelectorAll(".faq-list-item");
+faqListItems.forEach(faqListItem => {
+    faqListItem.addEventListener("click", () => {
+        faqListItem.classList.toggle("active");
+    });
+});
