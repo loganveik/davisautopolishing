@@ -17,6 +17,8 @@
     <script src="https://kit.fontawesome.com/ce4de5e097.js" crossorigin="anonymous"></script>
     <!-- FAVICON -->
     <link rel="shortcut icon" type="image/jpg" href="img/davisautopolishing-logo.png" />
+    <!-- SwiperJS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <title>Davis Auto Polishing</title>
 </head>
 
@@ -108,9 +110,36 @@
                 <div class="gallery-card">
                     <img src="img/gallery1.jpg">
                     <div class="gallery-card-overlay">
-                        <p>View More</p>
+                        <p class="overlay-open-icon">View More</p>
                     </div>
                 </div>
+            </div>
+            <div class="modal-overlay">
+                <div class="gallery-modal">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/gallery1.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/gallery2.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/gallery3.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/gallery4.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/gallery5.jpg">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <i class="overlay-close-icon fa-solid fa-xmark"></i>
             </div>
         </section>
 
@@ -165,40 +194,41 @@
         </section>
 
         <footer>
-                <div class="footer-content">
-                    <div class="footer-contact">
-                        <p id="content-heading">Contact</p>
-                        <p>(480)-285-9857</p>
-                        <a href="mailto:davisautopolishing@gmail.com">davisautopolishing@gmail.com</a>
-                    </div>
-                    <div class="footer-links">
-                        <p id="content-heading">Links</p>
-                        <div class="footer-link">
-                            <a href="#about">About</a>
-                            <a href="#packages">Packages</a>
-                            <a href="#gallery">Gallery</a>
-                            <a href="#faq">FAQ</a>
-                        </div>
-                    </div>
-                    <div class="footer-service">
-                        <p id="content-heading">Service Hours</p>
-                        <p>Monday - Saturday</p>
-                        <p>7am - 7pm</p>
-                    </div>
-                    <div class="footer-form">
-                        <p id="content-heading">Got a Question?</p>
-                        <div class="contact-form">
-                            <input placeholder="Name" />
-                            <input placeholder="Email" />
-                            <textarea rows="2" placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit">Submit</button>
+            <div class="footer-content">
+                <div class="footer-contact">
+                    <p id="content-heading">Contact</p>
+                    <p>(480)-285-9857</p>
+                    <a href="mailto:davisautopolishing@gmail.com">davisautopolishing@gmail.com</a>
+                </div>
+                <div class="footer-links">
+                    <p id="content-heading">Links</p>
+                    <div class="footer-link">
+                        <a href="#about">About</a>
+                        <a href="#packages">Packages</a>
+                        <a href="#gallery">Gallery</a>
+                        <a href="#faq">FAQ</a>
                     </div>
                 </div>
-            </footer>
+                <div class="footer-service">
+                    <p id="content-heading">Service Hours</p>
+                    <p>Monday - Saturday</p>
+                    <p>7am - 7pm</p>
+                </div>
+                <div class="footer-form">
+                    <p id="content-heading">Got a Question?</p>
+                    <div class="contact-form">
+                        <input placeholder="Name" />
+                        <input placeholder="Email" />
+                        <textarea rows="2" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </footer>
 
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="index.js"></script>
 </body>
 
