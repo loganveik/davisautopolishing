@@ -37,7 +37,7 @@ faqListItems.forEach(faqListItem => {
 });
 
 // JS for SwiperJS CDN for gallery image slider and package card carousel
-const swiper = new Swiper(".swiper", {
+const swiperGallery = new Swiper(".swiper-gallery", {
     cssMode: true,
     navigation: {
         nextEl: ".swiper-button-next",
@@ -64,12 +64,38 @@ const body = document.querySelector("body");
 
 openModalBtn.addEventListener("click", () => {
     modalOverlay.classList.add("active");
-    // body.css("overflow", "hidden");
     body.style.overflow = "hidden";
 });
 
 closeModalBtn.addEventListener("click", () => {
     modalOverlay.classList.remove("active");
-    // body.css("overflow", "auto");
     body.style.overflow = "auto";
+});
+
+// JS for SwiperJS CDN for package card slider for both desktop and mobile
+const swiper = new Swiper(".swiper-desktop", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+
+const swiperMobile = new Swiper(".swiper-mobile", {
+    slidesPerView: "auto",
+    centeredSlides: true,
+    spaceBetween: 30,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
 });
