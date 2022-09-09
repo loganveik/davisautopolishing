@@ -99,3 +99,55 @@ const swiperMobile = new Swiper(".swiper-mobile", {
         clickable: true,
     },
 });
+
+// Package Card modal form popups
+const choosePlanBtns = document.querySelectorAll(".choosePlanBtn");
+const pkgsOverlay = document.querySelector(".packages-overlay");
+const pkgsOverlayClose = document.querySelector(".pkgs-modal-close");
+const serviceInput = document.getElementById("service-request");
+
+choosePlanBtns.forEach(choosePlanBtn => {
+    choosePlanBtn.addEventListener("click", () => {
+        pkgsOverlay.classList.toggle("active")
+        serviceInput.setAttribute("value", choosePlanBtn.dataset.planName)
+        body.style.overflow = "hidden";
+    });
+});
+
+pkgsOverlayClose.addEventListener("click", () => {
+    pkgsOverlay.classList.toggle("active")
+    body.style.overflow = "auto";
+});
+
+
+// Footer Formspree JS to submit form to D.A.P. gmail
+const form = document.getElementById("my-footer-form");
+
+async function handleFooterFormSubmit(event) {
+    event.preventDefault();
+    const status = document.getElementById("my-footer-form-status");
+    const data = new FormData(event.target);
+    fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+    }).then(response => {
+        if (response.ok) {
+            status.innerHTML = "Thanks! We will be in touch for scheduling.";
+            form.reset()
+        } else {
+            response.json().then(data => {
+                if (Object.hasOwn(data, 'errors')) {
+                    status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                } else {
+                    status.innerHTML = "Oops! There was a problem submitting your form"
+                }
+            })
+        }
+    }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+    });
+}
+form.addEventListener("submit", handleFooterFormSubmit)

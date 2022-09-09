@@ -104,6 +104,28 @@
                 <p class="packages-title">PACKAGES</p>
                 <p class="packages-sub">Check Out Our Prices</p>
             </div>
+            <div class="packages-overlay">
+                <div class="packages-modal">
+                    <i class="pkgs-modal-close fa-solid fa-xmark"></i>
+                    <form class="packages-form">
+                        <div class="service-input">
+                            <label for="service-request">Your Service Request:</label>
+                            <input id="service-request" type="text" value="Basic Exterior" disabled>
+                        </div>
+                        <div class="name-number-input">
+                            <div class="input-group">
+                                <label for="name">Name:</label>
+                                <input id="name" type="text">
+                            </div>
+                            <div class="input-group">
+                                <label for="number">Phone Number:</label>
+                                <input id="number" type="tel">
+                            </div>
+                        </div>
+                        <button class="sendReqBtn" type="submit">Send Request</button>
+                    </form>
+                </div>
+            </div>
             <div class="swiper swiper-desktop">
                 <div class="swiper-wrapper">
 
@@ -140,7 +162,7 @@
                                 </div>
                             </div>
                             <div class="package-card-button">
-                                <button type="button">Choose Plan</button>
+                                <button data-plan-name="Basic Exterior" class="choosePlanBtn" type="button">Choose Plan</button>
                             </div>
                         </div>
                     </div>
@@ -205,7 +227,7 @@
                                 </div>
                             </div>
                             <div class="package-card-button">
-                                <button type="button">Choose Plan</button>
+                                <button data-plan-name="Basic Exterior + Interior" class="choosePlanBtn" type="button">Choose Plan</button>
                             </div>
                         </div>
                     </div>
@@ -262,7 +284,7 @@
                                 </div>
                             </div>
                             <div class="package-card-button">
-                                <button type="button">Choose Plan</button>
+                                <button data-plan-name="Boss Special" class="choosePlanBtn" type="button">Choose Plan</button>
                             </div>
                         </div>
                     </div>
@@ -335,7 +357,7 @@
                                 </div>
                             </div>
                             <div class="package-card-button">
-                                <button type="button">Choose Plan</button>
+                                <button data-plan-name="Boss Special + Interior" class="choosePlanBtn" type="button">Choose Plan</button>
                             </div>
                         </div>
                     </div>
@@ -396,7 +418,7 @@
                                 </div>
                             </div>
                             <div class="package-card-button">
-                                <button type="button">Choose Plan</button>
+                                <button data-plan-name="Paint Correction" class="choosePlanBtn" type="button">Choose Plan</button>
                             </div>
                         </div>
                     </div>
@@ -457,7 +479,7 @@
                                 </div>
                             </div>
                             <div class="package-card-button">
-                                <button type="button">Choose Plan</button>
+                                <button data-plan-name="Ceramic Coating" class="choosePlanBtn" type="button">Choose Plan</button>
                             </div>
                         </div>
                     </div>
@@ -504,7 +526,7 @@
                                 </div>
                             </div>
                             <div class="package-card-button">
-                                <button type="button">Choose Plan</button>
+                                <button class="choosePlanBtn" type="button">Choose Plan</button>
                             </div>
                         </div>
                     </div>
@@ -569,7 +591,7 @@
                                 </div>
                             </div>
                             <div class="package-card-button">
-                                <button type="button">Choose Plan</button>
+                                <button class="choosePlanBtn" type="button">Choose Plan</button>
                             </div>
                         </div>
                     </div>
@@ -626,7 +648,7 @@
                                 </div>
                             </div>
                             <div class="package-card-button">
-                                <button type="button">Choose Plan</button>
+                                <button class="choosePlanBtn" type="button">Choose Plan</button>
                             </div>
                         </div>
                     </div>
@@ -699,7 +721,7 @@
                                 </div>
                             </div>
                             <div class="package-card-button">
-                                <button type="button">Choose Plan</button>
+                                <button class="choosePlanBtn" type="button">Choose Plan</button>
                             </div>
                         </div>
                     </div>
@@ -760,7 +782,7 @@
                                 </div>
                             </div>
                             <div class="package-card-button">
-                                <button type="button">Choose Plan</button>
+                                <button class="choosePlanBtn" type="button">Choose Plan</button>
                             </div>
                         </div>
                     </div>
@@ -821,7 +843,7 @@
                                 </div>
                             </div>
                             <div class="package-card-button">
-                                <button type="button">Choose Plan</button>
+                                <button class="choosePlanBtn" type="button">Choose Plan</button>
                             </div>
                         </div>
                     </div>
@@ -948,12 +970,14 @@
                 </div>
                 <div class="footer-form">
                     <p id="content-heading">Got a Question?</p>
-                    <div class="contact-form">
-                        <input placeholder="Name" />
-                        <input placeholder="Email" />
-                        <textarea rows="2" placeholder="Message"></textarea>
-                    </div>
-                    <button type="submit">Submit</button>
+                    <form id="my-footer-form" class="contact-form" action="https://formspree.io/f/maykqqvy"
+                        method="POST">
+                        <input name="footerFormName" type="text" placeholder="Name" />
+                        <input name="footerFormEmail" type="email" placeholder="Email" />
+                        <textarea name="footerFormMessage" type="text" rows="2" placeholder="Message"></textarea>
+                        <button type="submit">Submit</button>
+                        <p id="my-footer-form-status"></p>
+                    </form>
                 </div>
             </div>
         </footer>

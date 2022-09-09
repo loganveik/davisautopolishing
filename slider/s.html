@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="s.css">
+    <!-- FONT AWESOME ICONS -->
+    <script src="https://kit.fontawesome.com/ce4de5e097.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card-display">
+            <i class="fa-solid fa-caret-left"></i>
+            <i class="fa-solid fa-caret-right"></i>
+            <div class="box-wrap">
+                <div class="box red"><button data-plan-name="Basic Exterior" class="modalBtn" type="button">click
+                        me</button></div>
+                <div class="box blue"><button data-plan-name="Basic Exterior + Interior" class="modalBtn"
+                        type="button">click me</button></div>
+                <div class="box green"><button data-plan-name="Boss Special" class="modalBtn" type="button">click
+                        me</button></div>
+                <div class="box pink"><button data-plan-name="Boss Special + Interior" class="modalBtn"
+                        type="button">click me</button></div>
+                <div class="box yellow"><button data-plan-name="Paint Correction" class="modalBtn" type="button">click
+                        me</button></div>
+                <div class="box black"><button data-plan-name="Ceramic Coating" class="modalBtn" type="button">click
+                        me</button></div>
+            </div>
+        </div>
+        <div class="packages-overlay">
+            <div class="packages-modal">
+                <i class="fa-solid fa-xmark"></i>
+                <form class="packages-form">
+                    <div class="service-input">
+                        <label for="service-request">Your Service Request:</label>
+                        <input id="service-request" type="text" disabled>
+                    </div>
+                    <div class="name-number-input">
+                        <div class="input-group">
+                            <label for="name">Name:</label>
+                            <input id="name" type="text">
+                        </div>
+                        <div class="input-group">
+                            <label for="number">Number:</label>
+                            <input id="number" type="tel">
+                        </div>
+                    </div>
+                    <button type="submit">Send Request</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="s.js"></script>
+</body>
+
+</html>
