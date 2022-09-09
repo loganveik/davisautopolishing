@@ -17,5 +17,5 @@ HTML5, CSS3, Javascript, jQuery
 ![homepage](img/DAPabout.png)
 3) Package Plans
 ![homepage](img/DAPpkgs.png)
-4) Hero
+4) FAQ
 ![homepage](img/DAPfaq.png)
