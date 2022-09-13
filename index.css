@@ -245,6 +245,12 @@ html {
     }
 }
 
+@media (max-width: 390px) {
+    .hero-content-buttons {
+        display: flex;
+    }
+}
+
 /* ABOUT */
 #about {
     width: 100%;
@@ -540,6 +546,7 @@ html {
     z-index: 110;
     display: none;
 }
+
 .packages-overlay.active {
     display: flex;
 }
